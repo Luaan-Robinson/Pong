@@ -13,6 +13,7 @@ class Game:
         self.all_sprites = pygame.sprite.Group()
         self.paddle_sprites = pygame.sprite.Group() # used for collision between ball and paddles
         self.player = Player((self.all_sprites, self.paddle_sprites))
+        self.ball = Ball(self.all_sprites, self.paddle_sprites) # ball has access to paddle_sprites but is NOT in paddle_sprites
 
     def run(self):
         while self.running:
