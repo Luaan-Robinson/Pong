@@ -2,8 +2,8 @@
 
 A classic Pong arcade game built with Pygame.
 
-![Gameplay](screenshots/gameplay1.png)
-![Gameplay](screenshots/gameplay2.png)
+<img src="screenshots/gameplay1.png" width="550"><br><br>
+<img src="screenshots/gameplay2.png" width="550">
 
 ## Description
 
